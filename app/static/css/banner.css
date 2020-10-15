@@ -1,0 +1,17 @@
+.style{list-style-type: none;
+
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+}
+ul.style> li:before {
+  content: "-";
+  text-indent: -5px;
+}
+input{
+    text-decoration: none;
+}
+ input:focus, textarea:focus, select:focus{
+        outline: none;}
