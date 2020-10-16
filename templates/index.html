@@ -71,9 +71,9 @@
                         <label>Name:</label>
                         <input type="text" name="name" required ><br>
                              <label>Email Id:</label>
-                        <input type="email" name="email" required><br>
+                        <input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="example@gmail.com or example@co.in" required><br>
                              <label>Mobile No:</label>
-                        <input type="number" name="mobile" required><br>
+                        <input type="text" name="mobile" pattern="[789][0-9]{9}" title="Phone number with 7-9 and remaing 9 digit with 0-9"required><br>
                              <input type="checkbox" name="terms" id="terms" required onchange="activateButton(this)">  I Agree To The Terms & Coditions<br>
                             <button type="submit" name="submit" id="submit" style="border: none;border-radius: 5px;
 background-color: white;color:black;padding:3px 10px">Submit</button>
