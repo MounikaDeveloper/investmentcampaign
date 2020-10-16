@@ -1,1 +1,1 @@
-web: gunicorn Investmentcampaign.app
+web: gunicorn Investmentcampaign.wsgi
